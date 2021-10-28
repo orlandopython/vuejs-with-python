@@ -1,6 +1,8 @@
 # vuejs-with-python
 Live code build of a Vue.js app with a Python FastAPI backend
 
+[Watch on YouTube](https://youtu.be/uSawG4dxx2k)
+
 ## Backend
 
 Our website backend uses Python and FastAPI to serve and update sports team data. FastAPI uses PyDantic to model and validate our team data before hosting. Normally our API would be connected to a database, but the data just lives in memory. This means all changes will be reset between reloads.
